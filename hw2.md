@@ -1,8 +1,97 @@
 # Hackathon Week 2!
 
+
+#### Note
+Before continuing make sure that git is installed on your machine!!
+There are plenty of resources out there such as...
+
+- [This Simple Blog](https://gist.github.com/derhuerst/1b15ff4652a867391f03)
+- [or This 20 Minuet Video](https://www.youtube.com/watch?v=J_Clau1bYco)
+
+While both are helpful tutorials, you might run into some problems. If so you are more than welcome to stop by our [Slack channel](https://pymavs.slack.com/join/shared_invite/enQtNDU2MzEwODEyMjE1LWQ1MzcxOTgwNDMwOWVlY2U3MTJjNjIzZGYyNjQxZDgwMTVjOGEwMzNiZjcxYTgxNDE5NWQ4NGVkNjM0MWY4OTI) for some one on one help.
+
+---
+
+## Step 1
+#### Link your account to [https://hacktoberfest.digitalocean.com/](https://hacktoberfest.digitalocean.com/)  !!!
+
+[Signing up](https://hacktoberfest.digitalocean.com/) by linking your Github account will make sure that DigitalOcean can track any pull requests you make. The goal for us is to make 4 pull requests. It does not matter if you're fixing a complex problem or simply editing the documentations. The goal of Hacktoberfest is to learn how you can support any opensource project.
+
+
+
+
+## Step 2
+#### [Find an issue!](https://github.com/search?q=label:hacktoberfest+state:open+type:issue)
+
+Some projects out there are simple and beginner friendly. If you are looking for an easy issue to fix, you could always check out our [Websites Github Link](https://github.com/PyMavs/pymavs.github.io). There should be some easy to fix HTML/CSS fixes that you can pull.
+
+
+
+
+## Step 3
+#### Fork The Repository
+
+Forking an issue creates a copy of the repo on your account. In otherwords, all the code gets copied to your Github account allowing you to mess with it anyway you want. The next step is to get that code onto your computer!
+
+![Image of Fork Button](http://readme-pics.s3.amazonaws.com/fork_button.jpg)
+
+
+
+
+## Step 4
+#### Download The Code
+
+To download your fork, copy the url address or click on the green "Clone or Download" button and copy that url.
+
+![Image of Download](https://help.github.com/assets/images/help/repository/remotes-url.png)
+
+
+Then on your terminal, cd to the destination you want to download the code to and run...
+
+``` bash
+  git clone https://github.com/PyMavs/pymavs.github.io.git
+```
+but with the URL you copied.
+
+
+
+## Step 5
+### Fix the issue
+
+Check the documentation page to see how to run the code, then find the issue and fix it!
+
+
+
+## Step 6
+### Commit Your Changes
+
+By commiting, we are saving everything we changed on our computer. To do this run
+
+``` bash
+git add .
+git commit -m "Your message goes here inside the quotes"
+```
+**git add .** adds everything that you edited
+**git commit -m "string goes here"** saves your changes with the string describing what you did. Make sure the message is descriptive!
+
+
+
+## Step 6
+### Pull Request
+
+The final step is to finally make a pull request.
+
+![Pull Request Image](http://s3itch.paperplanes.de/travis-ci_travis-ci.github.com_at_mm-pull-requests-workflow-20120813-103348.png)
+
+
+
+---
+
 ### To clone a repository
 ``` bash
 git clone www.website.com
 ```
 
 ### To commit and save
+
+
