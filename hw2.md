@@ -7,14 +7,14 @@ Before continuing make sure that git is installed on your machine!!
 There are plenty of resources out there such as...
 
 - [This Simple Blog](https://gist.github.com/derhuerst/1b15ff4652a867391f03)
-- [or This 20 Minuet Video](https://www.youtube.com/watch?v=J_Clau1bYco)
+- [or This 20 Minute Video](https://www.youtube.com/watch?v=J_Clau1bYco)
 
 While both are helpful tutorials, you might run into some problems. If so you are more than welcome to stop by our [Slack channel](https://pymavs.slack.com/join/shared_invite/enQtNDU2MzEwODEyMjE1LWQ1MzcxOTgwNDMwOWVlY2U3MTJjNjIzZGYyNjQxZDgwMTVjOGEwMzNiZjcxYTgxNDE5NWQ4NGVkNjM0MWY4OTI) for some one on one help.
 
 ---
 
 ## Step 1
-#### Link your account to [https://hacktoberfest.digitalocean.com/](https://hacktoberfest.digitalocean.com/)  !!!
+#### Link your account to [https://hacktoberfest.digitalocean.com/](https://hacktoberfest.digitalocean.com/) !!!
 
 [Signing up](https://hacktoberfest.digitalocean.com/) by linking your Github account will make sure that DigitalOcean can track any pull requests you make. The goal for us is to make 4 pull requests. It does not matter if you're fixing a complex problem or simply editing the documentations. The goal of Hacktoberfest is to learn how you can support any opensource project.
 
@@ -87,26 +87,78 @@ The final step is to finally make a pull request.
 
 
 ---
+# High level views of Git version control:
 
 ![Git Flowchart](https://i.stack.imgur.com/nWYnQ.png)
 
+
 # Git Commands
 
-### To add your git credentials and login information
+### To add your git credentials and login information (Do this first if you haven't yet!)
 ``` bash
-git config --global user.name "First Last"
+git config --global user.name "FirstName LastName"
 
-git config --global user.email your.name@server.domain.com
+git config --global user.email your.name@mail_server.domain.com
 ```
 Make sure this information matches what is on your Github account!
+
+### Initialize a new local repository (only do this if you are starting from scratch)
+``` bash
+git init
+```
+
+### Check your repo status
+``` bash
+git status
+```
+
+### View changes
+``` bash
+git log
+```
+
+### View changes (with more detail)
+``` bash
+git log --summary
+```
+
+### Preview changes *before* merging
+``` bash
+git diff [source] [target]
+```
 
 ### To clone a repository
 ``` bash
 git clone https://github.com/Path/toRepository.git
 ```
-Of course, use the *actual* URL that corresponds to the project or repository you want to work with.
+Of course, use the *real* URL that corresponds to the project or repository you want to work with.
+
+### Add all new *and* changed files to the staging area
+``` bash
+git add -A
+```
+or
+``` bash 
+git add .
+```
 
 ### To commit and save
 ``` bash
-git commit -m "Enter your comments or description of the changes here."
+git commit -m "[enter your comments or description of the changes here]"
 ```
+
+### Add a single file to the staging area
+``` bash
+git add [file-name-goes-here.extension]
+```
+
+### Push a branch to *your* remote respository
+``` bash
+git push origin
+```
+
+### Update a local repository to the newest commit of the remote repository
+``` bash
+git pull
+```
+
