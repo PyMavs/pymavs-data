@@ -1,5 +1,6 @@
 # Hackathon Week 2!
 
+![Hacktober Fest Image](https://user-images.githubusercontent.com/121322/45653341-78d1c000-ba8c-11e8-9497-2855130c0634.png)
 
 #### Note
 Before continuing make sure that git is installed on your machine!!
