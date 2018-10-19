@@ -1,4 +1,4 @@
-# Hackathon Week 2!
+# Hacktoberfest Week 2!
 
 ![Hacktober Fest Image](https://user-images.githubusercontent.com/121322/45653341-78d1c000-ba8c-11e8-9497-2855130c0634.png)
 
@@ -77,17 +77,16 @@ git commit -m "Your message goes here inside the quotes"
 
 
 
-## Step 6
+## Step 7
 ### Pull Request
 
 The final step is to finally make a pull request.
 
 ![Pull Request Image](http://s3itch.paperplanes.de/travis-ci_travis-ci.github.com_at_mm-pull-requests-workflow-20120813-103348.png)
 
-
-
 ---
-# High level views of Git version control:
+
+# High level view of Git version control:
 
 ![Git Flowchart](https://i.stack.imgur.com/nWYnQ.png)
 
