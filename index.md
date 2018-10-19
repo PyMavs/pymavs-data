@@ -1,3 +1,6 @@
 # Pymavs Data Portal
 
-More Comming soon...
+## Hacktober Fest Week 2
+
+### [https://pymavs.github.io/pymavs-data/hw2](https://pymavs.github.io/pymavs-data/hw2)
+---
