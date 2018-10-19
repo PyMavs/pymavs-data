@@ -88,11 +88,25 @@ The final step is to finally make a pull request.
 
 ---
 
+![Git Flowchart](https://i.stack.imgur.com/nWYnQ.png)
+
+# Git Commands
+
+### To add your git credentials and login information
+``` bash
+git config --global user.name "First Last"
+
+git config --global user.email your.name@server.domain.com
+```
+Make sure this information matches what is on your Github account!
+
 ### To clone a repository
 ``` bash
-git clone www.website.com
+git clone https://github.com/Path/toRepository.git
 ```
+Of course, use the *actual* URL that corresponds to the project or repository you want to work with.
 
 ### To commit and save
-
-
+``` bash
+git commit -m "Enter your comments or description of the changes here."
+```
